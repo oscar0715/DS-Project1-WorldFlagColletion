@@ -298,11 +298,11 @@
             </div>
         </div>
 
-        <footer class="footer navbar-fixed-bottom">
-            <div class="container">
-                <p class="text-capitalize">Produced by Jiaming NI</p>
-            </div>
-        </footer>
+        <!--        <footer class="footer navbar-fixed-bottom">
+                    <div class="container">
+                        <p class="text-capitalize">Produced by Jiaming NI</p>
+                    </div>
+                </footer>-->
         <!-- jQuery -->
         <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 

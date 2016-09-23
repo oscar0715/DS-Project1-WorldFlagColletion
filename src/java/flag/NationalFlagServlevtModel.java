@@ -40,7 +40,7 @@ public class NationalFlagServlevtModel {
 
             URL url = new URL(urlString);
 
-            /*n
+            /*
              * Create an HttpURLConnection.  This is useful for setting headers
              * and for getting the path of the resource that is returned (which 
              * may be different than the URL above if redirected).
@@ -91,20 +91,18 @@ public class NationalFlagServlevtModel {
         int cutRight = response.indexOf("<");
 
         String result = new String(response.substring(cutLeft + 1, cutRight));
-        // System.out.println("[response] = " + result);
         return result;
     }
     
     public String getCountryName(String pageContent) {
-        //    <span class="region_name1 countryName ">CHINA</span>
+        // Screen scraping
+        // find the location of country name;
         int cutLeft = pageContent.indexOf("region_name1 countryName");
         String result = new String(pageContent.substring(cutLeft));
 
-//        System.out.println("[CountryName] = " + result);
         cutLeft = result.indexOf(">");
         int cutRight = result.indexOf("<");
         result = new String(result.substring(cutLeft + 1, cutRight));
         return result;
     }
-
 }
