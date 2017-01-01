@@ -1,6 +1,8 @@
 # DS-Project1-WorldFlagColletion
 Web Application. You can get flag and flag description from all countries.
 
+Netbeans + JSP + bootstrap
+
 查看各个国家国旗的 Web Application
 
 采用 MVC 模式：
